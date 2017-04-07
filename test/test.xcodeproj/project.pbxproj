@@ -16,6 +16,7 @@
 		60589FBA1E97D4AD00E2D61B /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60589FB91E97D4AD00E2D61B /* testTests.m */; };
 		60589FC51E97D4AD00E2D61B /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60589FC41E97D4AD00E2D61B /* testUITests.m */; };
 		60589FD41E97DE9A00E2D61B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 60589FD31E97DE9A00E2D61B /* Car.m */; };
+		BC186D491E97E276003D0726 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BC186D481E97E276003D0726 /* Dog.m */; };
 		BC8F818F1E97D6820062F90C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8F818E1E97D6820062F90C /* Person.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		60589FC61E97D4AD00E2D61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60589FD21E97DE9A00E2D61B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		60589FD31E97DE9A00E2D61B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		BC186D471E97E276003D0726 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		BC186D481E97E276003D0726 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		BC8F818D1E97D6820062F90C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BC8F818E1E97D6820062F90C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				60589FA21E97D4AC00E2D61B /* AppDelegate.h */,
+				BC186D471E97E276003D0726 /* Dog.h */,
+				BC186D481E97E276003D0726 /* Dog.m */,
 				60589FA31E97D4AC00E2D61B /* AppDelegate.m */,
 				60589FD21E97DE9A00E2D61B /* Car.h */,
 				60589FD31E97DE9A00E2D61B /* Car.m */,
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC186D491E97E276003D0726 /* Dog.m in Sources */,
 				60589FD41E97DE9A00E2D61B /* Car.m in Sources */,
 				60589FA71E97D4AC00E2D61B /* ViewController.m in Sources */,
 				60589FA41E97D4AC00E2D61B /* AppDelegate.m in Sources */,
