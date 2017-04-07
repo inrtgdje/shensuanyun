@@ -11,13 +11,6 @@
 @interface ViewController : UIViewController
 
 
-@property (nonatomic,strong) NSMutableArray *dataArray2;
-@property (nonatomic,strong) NSMutableArray *dataArray3;
-
-@property (nonatomic,strong) NSMutableArray *dataArray4;
-@property (nonatomic,strong) NSMutableArray *dataArray5;
-@property (nonatomic,strong) NSMutableArray *dataArray6;
-
 
 @end
 
