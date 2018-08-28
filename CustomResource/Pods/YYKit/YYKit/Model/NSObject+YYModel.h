@@ -305,7 +305,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  The generic class mapper for container properties.
  
- @discussion If the property is a container object, such as NSArray/NSSet/NSDictionary,
+// @discussion If the property is a container object, such as NSArray/NSSet/NSDictionary,
  implements this method and returns a property->class mapper, tells which kind of 
  object will be add to the array/set/dictionary.
  
