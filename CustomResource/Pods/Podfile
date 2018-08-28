@@ -1,0 +1,19 @@
+platform :ios, '10.3'
+
+target 'CustomResource' do
+    pod 'pop', '~> 1.0'
+    pod 'Bugly'
+    pod 'GTSDK'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'MJExtension'
+    pod 'SVProgressHUD'
+    pod 'TZImagePickerController'
+    pod 'SDWebImage', '~> 4.3.3'
+    pod 'TPKeyboardAvoiding', '~> 1.3.2'
+    pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+    pod 'AMap2DMap-NO-IDFA'
+    pod 'AMapLocation-NO-IDFA'
+    pod 'AMapSearch-NO-IDFA'
+
+end

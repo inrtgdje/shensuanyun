@@ -1,0 +1,20 @@
+platform :ios, '10.3'
+
+target 'CustomResource' do
+  
+  pod 'AFNetworking'
+  pod 'Bugly'
+  pod 'GTSDK'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'MJExtension'
+  pod 'pop', '~> 1.0'
+  pod 'SVProgressHUD'
+  pod 'SDWebImage'
+  pod 'TPKeyboardAvoiding'
+  pod 'TTTAttributedLabel'
+  pod 'TZImagePickerController'
+  pod 'UITableView+FDTemplateLayoutCell'
+  pod 'YYKit'
+
+end
