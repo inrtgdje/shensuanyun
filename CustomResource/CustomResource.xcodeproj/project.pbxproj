@@ -41,7 +41,9 @@
 		570E93802134F9E4009DD72E /* TMRedTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E937F2134F9E4009DD72E /* TMRedTitleView.m */; };
 		570E93832134F9EB009DD72E /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E93812134F9EB009DD72E /* UINavigationBar+Awesome.m */; };
 		570E938B213501EE009DD72E /* RKNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E938A213501EE009DD72E /* RKNotificationHub.m */; };
+		57356369215CC33900433DB1 /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57356367215CC33900433DB1 /* CBAutoScrollLabel.m */; };
 		57454C6A2141103600C04694 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57454C682141103600C04694 /* UICollectionViewLeftAlignedLayout.m */; };
+		57F81ABB2150E0BC00CB92F2 /* TeachSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F81ABA2150E0BC00CB92F2 /* TeachSet.m */; };
 		979F9CFDD86174EE333F5C41 /* libPods-CustomResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8C09BF11CD66FE4BE8AB99 /* libPods-CustomResource.a */; };
 /* End PBXBuildFile section */
 
@@ -115,8 +117,12 @@
 		570E93822134F9EB009DD72E /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		570E9389213501EE009DD72E /* RKNotificationHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKNotificationHub.h; sourceTree = "<group>"; };
 		570E938A213501EE009DD72E /* RKNotificationHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKNotificationHub.m; sourceTree = "<group>"; };
+		57356367215CC33900433DB1 /* CBAutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAutoScrollLabel.m; sourceTree = "<group>"; };
+		57356368215CC33900433DB1 /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAutoScrollLabel.h; sourceTree = "<group>"; };
 		57454C682141103600C04694 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		57454C692141103600C04694 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		57F81AB92150E0BC00CB92F2 /* TeachSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeachSet.h; sourceTree = "<group>"; };
+		57F81ABA2150E0BC00CB92F2 /* TeachSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeachSet.m; sourceTree = "<group>"; };
 		6C8C09BF11CD66FE4BE8AB99 /* libPods-CustomResource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomResource.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,6 +159,7 @@
 		570E92102134EF16009DD72E /* CustomResource */ = {
 			isa = PBXGroup;
 			children = (
+				57F81AB82150DFF600CB92F2 /* Model */,
 				570E936B2134F92D009DD72E /* BaseView */,
 				570E92282134EF3C009DD72E /* Library */,
 				570E92272134EF2B009DD72E /* Category */,
@@ -231,6 +238,8 @@
 			children = (
 				570E936D2134F95C009DD72E /* BaseBorderCell.h */,
 				570E936F2134F95C009DD72E /* BaseBorderCell.m */,
+				57356368215CC33900433DB1 /* CBAutoScrollLabel.h */,
+				57356367215CC33900433DB1 /* CBAutoScrollLabel.m */,
 				570E93732134F973009DD72E /* BJNoDataView.h */,
 				570E93722134F973009DD72E /* BJNoDataView.m */,
 				570E9389213501EE009DD72E /* RKNotificationHub.h */,
@@ -247,6 +256,15 @@
 				570E936C2134F95C009DD72E /* HyperlinksButton.m */,
 			);
 			path = BaseView;
+			sourceTree = "<group>";
+		};
+		57F81AB82150DFF600CB92F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57F81AB92150E0BC00CB92F2 /* TeachSet.h */,
+				57F81ABA2150E0BC00CB92F2 /* TeachSet.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D584D78B63EB31CD92E8338B /* Pods */ = {
@@ -382,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57454C6A2141103600C04694 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				57356369215CC33900433DB1 /* CBAutoScrollLabel.m in Sources */,
 				570E93692134F514009DD72E /* UIImage+MJ.m in Sources */,
 				570E92162134EF16009DD72E /* ViewController.m in Sources */,
 				570E93622134F514009DD72E /* NSHTTPCookieStorage+LX.m in Sources */,
@@ -408,6 +427,7 @@
 				570E93362134F0B2009DD72E /* NSString+Format.m in Sources */,
 				570E93772134F97D009DD72E /* CJScroViewBar.m in Sources */,
 				570E93602134F514009DD72E /* UIAlertController+TM.m in Sources */,
+				57F81ABB2150E0BC00CB92F2 /* TeachSet.m in Sources */,
 				570E93832134F9EB009DD72E /* UINavigationBar+Awesome.m in Sources */,
 				570E937A2134F98D009DD72E /* PictureAndTitleButton.m in Sources */,
 				570E93672134F514009DD72E /* UIScrollView+Screenshot.m in Sources */,
