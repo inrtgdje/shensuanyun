@@ -43,6 +43,7 @@
 		570E938B213501EE009DD72E /* RKNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E938A213501EE009DD72E /* RKNotificationHub.m */; };
 		57356369215CC33900433DB1 /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57356367215CC33900433DB1 /* CBAutoScrollLabel.m */; };
 		57454C6A2141103600C04694 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57454C682141103600C04694 /* UICollectionViewLeftAlignedLayout.m */; };
+		578512AA21743422008B75DD /* NoAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578512A921743422008B75DD /* NoAddressView.m */; };
 		57F81ABB2150E0BC00CB92F2 /* TeachSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F81ABA2150E0BC00CB92F2 /* TeachSet.m */; };
 		979F9CFDD86174EE333F5C41 /* libPods-CustomResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8C09BF11CD66FE4BE8AB99 /* libPods-CustomResource.a */; };
 /* End PBXBuildFile section */
@@ -121,6 +122,8 @@
 		57356368215CC33900433DB1 /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAutoScrollLabel.h; sourceTree = "<group>"; };
 		57454C682141103600C04694 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		57454C692141103600C04694 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		578512A821743422008B75DD /* NoAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoAddressView.h; sourceTree = "<group>"; };
+		578512A921743422008B75DD /* NoAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoAddressView.m; sourceTree = "<group>"; };
 		57F81AB92150E0BC00CB92F2 /* TeachSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeachSet.h; sourceTree = "<group>"; };
 		57F81ABA2150E0BC00CB92F2 /* TeachSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeachSet.m; sourceTree = "<group>"; };
 		6C8C09BF11CD66FE4BE8AB99 /* libPods-CustomResource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomResource.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +162,7 @@
 		570E92102134EF16009DD72E /* CustomResource */ = {
 			isa = PBXGroup;
 			children = (
+				578512A7217433FA008B75DD /* AddressView */,
 				57F81AB82150DFF600CB92F2 /* Model */,
 				570E936B2134F92D009DD72E /* BaseView */,
 				570E92282134EF3C009DD72E /* Library */,
@@ -256,6 +260,15 @@
 				570E936C2134F95C009DD72E /* HyperlinksButton.m */,
 			);
 			path = BaseView;
+			sourceTree = "<group>";
+		};
+		578512A7217433FA008B75DD /* AddressView */ = {
+			isa = PBXGroup;
+			children = (
+				578512A821743422008B75DD /* NoAddressView.h */,
+				578512A921743422008B75DD /* NoAddressView.m */,
+			);
+			path = AddressView;
 			sourceTree = "<group>";
 		};
 		57F81AB82150DFF600CB92F2 /* Model */ = {
@@ -426,6 +439,7 @@
 				570E935A2134F514009DD72E /* UIImage+Masking.m in Sources */,
 				570E93362134F0B2009DD72E /* NSString+Format.m in Sources */,
 				570E93772134F97D009DD72E /* CJScroViewBar.m in Sources */,
+				578512AA21743422008B75DD /* NoAddressView.m in Sources */,
 				570E93602134F514009DD72E /* UIAlertController+TM.m in Sources */,
 				57F81ABB2150E0BC00CB92F2 /* TeachSet.m in Sources */,
 				570E93832134F9EB009DD72E /* UINavigationBar+Awesome.m in Sources */,
