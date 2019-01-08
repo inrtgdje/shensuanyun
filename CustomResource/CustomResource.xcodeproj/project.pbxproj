@@ -43,6 +43,7 @@
 		570E938B213501EE009DD72E /* RKNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E938A213501EE009DD72E /* RKNotificationHub.m */; };
 		57356369215CC33900433DB1 /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57356367215CC33900433DB1 /* CBAutoScrollLabel.m */; };
 		57454C6A2141103600C04694 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57454C682141103600C04694 /* UICollectionViewLeftAlignedLayout.m */; };
+		5755B80C21ACE19A000B3F0F /* left.js in Resources */ = {isa = PBXBuildFile; fileRef = 5755B80B21ACE19A000B3F0F /* left.js */; };
 		578512AA21743422008B75DD /* NoAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578512A921743422008B75DD /* NoAddressView.m */; };
 		57F81ABB2150E0BC00CB92F2 /* TeachSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F81ABA2150E0BC00CB92F2 /* TeachSet.m */; };
 		979F9CFDD86174EE333F5C41 /* libPods-CustomResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8C09BF11CD66FE4BE8AB99 /* libPods-CustomResource.a */; };
@@ -122,6 +123,7 @@
 		57356368215CC33900433DB1 /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAutoScrollLabel.h; sourceTree = "<group>"; };
 		57454C682141103600C04694 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		57454C692141103600C04694 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		5755B80B21ACE19A000B3F0F /* left.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = left.js; sourceTree = "<group>"; };
 		578512A821743422008B75DD /* NoAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoAddressView.h; sourceTree = "<group>"; };
 		578512A921743422008B75DD /* NoAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoAddressView.m; sourceTree = "<group>"; };
 		57F81AB92150E0BC00CB92F2 /* TeachSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeachSet.h; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				570E92142134EF16009DD72E /* ViewController.h */,
 				570E92152134EF16009DD72E /* ViewController.m */,
 				570E92172134EF16009DD72E /* Main.storyboard */,
+				5755B80B21ACE19A000B3F0F /* left.js */,
 				570E921A2134EF1A009DD72E /* Assets.xcassets */,
 				570E921C2134EF1A009DD72E /* LaunchScreen.storyboard */,
 				570E921F2134EF1A009DD72E /* Info.plist */,
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570E921E2134EF1A009DD72E /* LaunchScreen.storyboard in Resources */,
+				5755B80C21ACE19A000B3F0F /* left.js in Resources */,
 				570E921B2134EF1A009DD72E /* Assets.xcassets in Resources */,
 				570E92192134EF16009DD72E /* Main.storyboard in Resources */,
 			);
@@ -523,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -575,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
